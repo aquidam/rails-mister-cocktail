@@ -3,6 +3,8 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '2.5.3'
 
+gem 'dotenv-rails', groups: [:development, :test]
+
 gem 'autoprefixer-rails'
 
 gem 'bootstrap-sass', '~> 3.3.7'
